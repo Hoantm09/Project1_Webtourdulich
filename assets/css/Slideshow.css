@@ -1,0 +1,112 @@
+/* .slider__search {
+    height: 48px;
+    width: 85%;
+    border-radius: 24px;
+    padding-left: 28px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: none;
+} */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #d5e1d7;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .searchTerm:focus{
+    color: #000000;
+  }
+  
+  .searchButton {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #d5e1d7;
+    background: #d5e1d7;
+    text-align: center;
+    color: rgb(2, 30, 4);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.slideshoww {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery-display-area {
+    overflow: hidden;
+    height: 820px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.gallery-wrap {
+    width: 500%;
+    animation: slideShow 16s infinite; 
+}
+
+.image {
+    float: left;
+    height: 608px;
+    width: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-flex: below 1px -webkit-gradient(linear, right top, right bottom, form(transparent), to(rgba(255, 255, 255, 0.3))) ;
+}
+
+@keyframes slideShow{
+    20%{
+        margin-left: 0;
+    }
+    30%{
+        margin-left: -100%;
+    }
+    40%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    60%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -300%;
+    }
+    80%{
+        margin-left: -300%;
+    }
+    90%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+

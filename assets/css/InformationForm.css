@@ -1,0 +1,66 @@
+.content {
+    background-color: #eaeaea;
+   display:flex;
+}
+
+.content__information {
+    line-height: 3;
+    width: 40%;
+    margin: 50px 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px 30px;
+    margin-right: 300px;
+}
+
+.subcontent__information label {
+    padding-left: 50px;
+}
+.subcontent__information input{
+    margin-right: 130px;
+    float:right;
+    display: block;
+    border-bottom: 2px solid #c5c5c5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 6px;
+    outline-style: none;
+    width: 40%;
+    margin-top: 0px;
+}
+.subcontent__intro {
+    padding-bottom: 10px;
+    
+}
+
+.subcontent__information {
+    font-size: 20px;
+    padding-top: 20px;
+    padding: bottom 20px;
+}
+
+.Content__price{
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 50px;
+    float:right;
+    width:25%;
+    height:300px; 
+    padding-left: 2%;
+
+}
+
+.subcontent__intro--sum{
+    padding-top: 10%;
+    padding-bottom: 50px;
+}
+
+.subcontent__information--sum {
+    margin-left: 20px;;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+
+

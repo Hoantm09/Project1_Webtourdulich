@@ -1,0 +1,76 @@
+/* CONTAINER */
+
+#modal_searchhotel{
+    position: relative;
+    height: 500px;
+    width: 85%;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#modal_searchhotel .img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modal_searchhotel #modal {
+    position: absolute;
+    background: #ffff;
+    width: 1000px;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    top: 130px;
+}
+
+#modal_searchhotel #modal .modal_body #start{
+    padding: 15px 15px;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    left: 120px;
+    top: 130px;
+}
+
+#modal_searchhotel #modal .modal_body #arrive{
+    padding: 15px 15px;
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    left: 180px;
+    top: 130px;
+}
+#modal_searchhotel #modal .modal_body .place{
+    display: inline-block;
+}
+
+#modal_searchhotel #modal .modal_body #find_button{
+    position: relative;
+    padding: 8px 8px;
+    border-radius: 12px;
+    left: 260px;
+    top: 138px;
+    background-color: white;
+}
+#find_button .search_img{
+    width: 31px;
+    height: 31px;
+}
+
+#modal_searchhotel #modal .modal_body .find_button:hover{
+    opacity: 0.5;
+}
+
+

@@ -1,0 +1,73 @@
+/*Content css*/
+.content {
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.content__intro{
+    padding-top: 30px;
+    padding-bottom: 50px; 
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.content__maincontent {
+    border: solid;
+    border-color: #efeeee;
+    padding-top: 50px;
+    padding-left:80px;
+    padding-right:80px;
+    border-radius: 10px;
+}
+
+.subcontent {
+    display: flex;
+    padding-top:80px;
+}
+
+.subcontent__title {
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+
+.subcontent__desc{
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.subcontent--first{
+    float: left;
+    width: 80%;
+}
+.subcontent__img--first{
+    float: right;
+    width: 35%;
+    height: auto;
+}
+
+.subcontent--second {
+    padding-left: 100px;
+    float: right;
+    width: 70%;
+}
+
+.subcontent__img--second {
+    height:auto;
+    float: left;
+}
+
+.subcontent--third {
+    width: 100%;
+}
+
+.subcontent__img--third{
+    max-width: 600px;
+    max-height: 400px;
+    padding-top:50px;
+    padding-bottom: 100px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}

@@ -1,0 +1,95 @@
+.container_2 {
+    background-color: #eaeaea;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.container__intro_2{
+    padding-top: 30px;
+    padding-bottom: 50px; 
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.content_2{
+    background-color: #eaeaea;
+    padding-bottom: 10px;
+}
+.maincontent_2{
+    margin-left:350px;
+    width:60%;
+    height: 200px;
+    background-color: white;
+    border-color: #efeeee;
+    border-radius: 10px;
+    margin-bottom: 100px;
+ }
+
+.subcontent_2 {
+    display:flex;
+    max-height: 200px;
+}
+
+.subcontent__logo_2 {
+    padding-left: 50px;
+    width: 20%;
+}
+
+.subcontent__plane_2{
+    display:flex;
+}
+
+.subcontent__img_2{
+    max-width: 50px;
+    max-height: 50px;
+    padding-top:19%;
+    padding-right: 1%;
+}
+
+.subcontent__intro_2{
+    font-size: 20px;
+    padding-top: 27%;
+    padding-left:5%;
+}
+
+.subcontent--left_2{
+    line-height: 2;
+    padding-top:3%;
+    text-align: center;
+    position: relative;
+    float:center;
+    width:50%; 
+}
+
+.subcontent__hour_2{
+    font-size: 18px;
+}
+
+.subcontent__local_2{
+    font-size: 15px;
+    color:#434343;
+}
+
+.subcontent--right_2{
+    width:30%;
+    float:right;
+    padding-top: 9%;
+}
+
+.subcontent__price_2{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 15%;
+}
+
+.subcontent__btn_2{
+    margin-left: 100px;
+    font-size: 18px;
+    border: 1px solid #7875b0;
+    padding: 7px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7875b0;
+}

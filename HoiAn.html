@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/sign_in_form.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/HoiAn.css">
+  <title>Hội An/title>
+</head>
+
+<body>
+  <div class="main">
+    <!-- Header-My -->
+    <div class="header">
+      <div class="header__menu">
+        <div class="header__menu--logo">
+          <img src="./assets/img/logo.png">
+          <a href="./index.html">
+            <h2>
+              Booking
+            </h2>
+          </a>
+        </div>
+        <div class="header__menu--right">
+          <ul>
+            <li><a href="https://www.facebook.com/">Hỗ trợ</a></li>
+            <li><a id="btn_sign_in">Đăng nhập</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="header__nav">
+        <ul>
+          <li><a href="./searchplane.html"><img class="header__nav--plane" src="./assets/img/Maybay.png">
+              <p class="header__nav-desc">Chuyến bay</p>
+            </a></li>
+          <li><a href="./searchhotel.html"><img class="header__nav--hotel" src="./assets/img/hotel.png">
+              <p class="header__nav-desc">Khách sạn</p>
+            </a></li>
+          <li><a href="./bookcar.html"><img class="header__nav--car" src="./assets/img/car.png">
+              <p class="header__nav-desc">Đặt xe</p>
+            </a></li>
+          <li><a href="./searchlocal.html"><img class="header__nav--local" src="./assets/img/diadiem.png">
+              <p class="header__nav-desc">Địa điểm</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <!--Content-->
+    <div class="content">
+
+      <div class="content__intro">Địa điểm du lịch tại Hội An</div>
+
+      <div class="content__maincontent">
+
+        <div class="subcontent">
+          <div class="subcontent--first">
+            <h2 class="subcontent__title">1. Phố cổ Hội An</h2>
+            <p class="subcontent__desc">Đã đến du lịch Hội An thì nhất định không thể bỏ qua khu phố cổ, nơi
+              <br> có những con đường ngắn và hẹp, chạy dọc ngang theo hình bàn cờ.
+              <br> Đô thị cổ kính hơn 400 năm tuổi này cũng là nơi quy tụ nhiều công
+              <br> trình kiến trúc cổ điển độc đáo.
+            </p>
+          </div>
+          <img class="subcontent__img--first" src="./assets/img/hoian.jpg">
+        </div>
+
+        <div class="subcontent">
+          <img src="./assets/img/phuckien.jpg">
+          <div class="subcontent--second">
+            <h2 class="subcontent__title">2. Hội Quán Phúc Kiến</h2>
+            <p class="subcontent__desc">Nếu đi du lịch Hội An, hãy ghé thăm hội quán Triều Châu một lần để
+              chiêm ngưỡng một công trình kiến trúc độc đáo với những họa tiết được chạm trổ tinh xảo
+              trên khung gỗ. Đây là nơi thờ các vị thần chế ngự sóng gió mà người dân Triều Châu tin
+              tưởng để cầu nguyện cho việc đi lại trên biển được thuận lợi.
+          </div>
+        </div>
+
+        <div class="subcontent">
+          <div class="subcontent--third">
+            <h2 class="subcontent__title">3. Bãi biển An Bàng</h2>
+            <p class="subcontent__desc">Nằm cách trung tâm phố cổ Hội An chừng 3km về phía Đông,
+              biển An Bàng được nhiều người biết đến là địa điểm du lịch Hội An khi có mặt trong
+              danh sách 50 bãi biển đẹp nhất thế giới. Bãi biển có chiều dài khoảng 4km với không
+              gian thiên nhiên trong lành và thảm thực vật đa dạng, rất thích hợp với những du khách
+              đang tìm kiếm một không gian yên tĩnh, nhẹ nhàng.</p>
+
+            <img class="subcontent__img--third" src="./assets/img/anbang.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer-Vu -->
+    <div class="footer">
+      <div class="footer__desc">
+        Liên hệ với chúng tôi qua:
+      </div>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="https://www.facebook.com/"><img src="./assets/img/facebook_footer.png" alt=""
+              class="footer__img"></a></li>
+        <li class="footer__item"><a href="https://www.instagram.com/"><img src="./assets/img/instagram_footer.png"
+              alt="" class="footer__img--ins"></a></li>
+        <li class="footer__item"><a href="https://www.google.com.vn/"><img src="./assets/img/google_footer.jpg" alt=""
+              class="footer__img"></a></li>
+      </ul>
+    </div>
+
+
+    <!--Sign In Form-->
+    <div id="sign_in_container" class="">
+      <div id="form_background" class="form_background"></div>
+      <div id="form" class="form">
+        <div class="form_header">
+          <img src="./assets/img/logo.png">
+          <h3>
+            Booking
+          </h3>
+        </div>
+        <div class="form_container">
+          <h2 class="form_desc"><b>Đăng nhập</b></h2>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/facebook_footer.png">
+            <h2>Continue with Facebook </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/Google_footer.png">
+            <h2>Continue with Google </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="mail" src="./assets/img/gmail.png">
+            <h2>Continue with Email</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/sign_in_event.js"></script>
+</body>
+
+</html>

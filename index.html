@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/sign_in_form.css">
+    <link rel="stylesheet" href="./assets/css/bookcar.css">
+    <link rel="stylesheet" href="./assets/css/Slideshow.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Header-My -->
+        <div class="header">
+            <div class="header__menu">
+              <div class="header__menu--logo">
+                    <img src="./assets/img/logo.png"> 
+                    <a href="./index.html">
+                        <h2>
+                            Booking
+                        </h2>
+                    </a>
+              </div>
+              <div class="header__menu--right">
+                <ul>
+                  <li><a href= "https://www.facebook.com/">Hỗ trợ</a></li>
+                  <li><a id="btn_sign_in">Đăng nhập</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="header__nav">
+              <ul>
+                <li><a href="./searchplane.html" ><img class= "header__nav--plane" src= "./assets/img/Maybay.png">
+                    <p class="header__nav-desc">Chuyến bay</p>
+                </a></li>
+                <li><a href= "./searchhotel.html"><img class= "header__nav--hotel" src="./assets/img/hotel.png">
+                    <p class="header__nav-desc">Khách sạn</p>
+                </a></li>
+                <li><a href= "./bookcar.html"><img class="header__nav--car" src ="./assets/img/car.png">
+                    <p class="header__nav-desc">Đặt xe</p>
+                </a></li>
+                <li><a href= "./searchlocal.html"><img class="header__nav--local" src="./assets/img/diadiem.png">
+                    <p class="header__nav-desc">Địa điểm</p>
+                </a></li>
+              </ul>
+            </div>
+        </div>
+
+        <!-- Slider-Hoan -->
+        <div class="wrap">
+            <form action="" class="search" method="post">
+               <input type="text" class="searchTerm" placeholder="What do you want to search?">
+               <button type="Search" class="searchButton">
+                 Search
+              </button>
+            </form>
+         </div>
+        <div class="slideshoww">
+            <div class="gallery-display-area">
+               <div class="gallery-wrap">
+                <div class="image">
+                    <img src="assets/img/slide1.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/img/slide2.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/img/slide3.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/img/slide4.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="assets/img/slide5.jpg" alt="">
+                </div>
+               </div>
+            </div>
+        </div>
+
+        <!-- Container-Tung -->
+        <div class="container">
+            <div class="main_tour">
+                <div class="main_tour_desc">Sự lựa chọn tuyệt vời khi đi du lịch 
+                    <br>cùng bạn bè và người thân</div>
+                <ul class="list_tour">
+                    <li class="tour__member"><a href="NinhBinh.html"><img src="./assets/img/Ninh Bình.jpg" alt="" class="tour__img"></a><div class="tour__member_desc"><b>Ninh Bình</b></div></li>
+                    <li class="tour__member"><a href="LaoCai.html"><img src="./assets/img/Lào Cai.jpg" alt="" class="tour__img"></a><div class="tour__member_desc"><b>Lào Cai</b></div></li>
+                    <li class="tour__member"><a href="HoiAn.html"><img src="./assets/img/hoian.jpg" alt="" class="tour__img"></a><div class="tour__member_desc"><b>Hội An</b></div></li>
+                    <li class="tour__member"><a href="QuangNinh.html"><img src="./assets/img/Quảng Ninh.jpg" alt="" class="tour__img"></a><div class="tour__member_desc"><b>Quảng Ninh</b></div></li>
+                </ul>
+            </div>
+            <div class="special_tour">
+                <img class="special_tour_img" href="" src="./assets/img/Tour đặc biệt.jpg" alt="">
+                <div class="special_tour_desc1"><b>ưu đãi đặc biệt </b></div>
+                <div class="special_tour_desc2"><br> Giảm giá đến 25% cho đoàn<br>từ 6 người</div>
+            </div>
+
+        </div>
+    
+        <!-- Footer-Vu -->
+        <div class="footer">
+            <div class="footer__desc">
+                Liên hệ với chúng tôi qua:
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="https://www.facebook.com/"><img src="./assets/img/facebook1.png" alt="" class="footer__img"></a></li>
+                <li class="footer__item"><a href="https://www.instagram.com/"><img src="./assets/img/instagram_footer.png" alt="" class="footer__img--ins"></a></li>
+                <li class="footer__item"><a href="https://www.google.com.vn/"><img src="./assets/img/google_footer.jpg" alt="" class="footer__img"></a></li>
+            </ul>
+        </div>
+
+        <!--Sign In Form-->
+        <div id="sign_in_container" class="">
+            <div id="form_background" class="form_background"></div>
+            <div id="form" class="form">
+                <div class="form_header">
+                    <img src="./assets/img/logo.png">
+                    <h3>
+                        Booking
+                    </h3>
+                </div>
+                <div class="form_container">
+                    <h2 class="form_desc"><b>Đăng nhập</b></h2>
+                    <div class="form_btn">
+                        <button class="sign_in_choose"></button>
+                        <img class="item" src="./assets/img/facebook_footer.png">
+                        <h2>Continue with Facebook </h2>  
+                    </div>
+                    <div class="form_btn">
+                        <button class="sign_in_choose"></button>
+                        <img class="item" src="./assets/img/Google_footer.png">
+                        <h2>Continue with Google  </h2>  
+                    </div>
+                    <div class="form_btn">
+                        <button class="sign_in_choose"></button>
+                        <img class="mail" src="./assets/img/gmail.png">
+                        <h2>Continue with Email</h2>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/sign_in_event.js"></script>
+</body>
+</html>

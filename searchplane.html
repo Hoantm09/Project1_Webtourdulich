@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/searchplane.css">
+  <link rel="stylesheet" href="./assets/css/sign_in_form.css">
+  <link rel="stylesheet" href="./assets/css/ListPlaneOneWay.css">
+  <link rel="stylesheet" href="./assets/css/ListPlaneTwoWay.css">
+  <title>Tìm kiếm chuyến bay</title>
+</head>
+
+<body>
+  <div class="main">
+    <!-- Header-My -->
+    <div class="header">
+      <div class="header__menu">
+        <div class="header__menu--logo">
+          <img href="./index.html" src="./assets/img/logo.png">
+          <a href="./index.html">
+            <h2>
+              Booking
+            </h2>
+          </a>
+        </div>
+        <div class="header__menu--right">
+          <ul>
+            <li><a href="https://www.facebook.com/">Hỗ trợ</a></li>
+            <li><a id="btn_sign_in">Đăng nhập</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="header__nav">
+        <ul>
+          <li><a href="./searchplane.html"><img class="header__nav--plane" src="./assets/img/Maybay.png">
+              <p class="header__nav-desc">Chuyến bay</p>
+            </a></li>
+          <li><a href="./searchhotel.html"><img class="header__nav--hotel" src="./assets/img/hotel.png">
+              <p class="header__nav-desc">Khách sạn</p>
+            </a></li>
+          <li><a href="./bookcar.html"><img class="header__nav--car" src="./assets/img/car.png">
+              <p class="header__nav-desc">Đặt xe</p>
+            </a></li>
+          <li><a href="./searchlocal.html"><img class="header__nav--local" src="./assets/img/diadiem.png">
+              <p class="header__nav-desc">Địa điểm</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- CONTAINER -->
+    <div class="container">
+      <div id="modal_plane" class="">
+        <img class="img" href="" src="./assets/img/2.jpg" alt="">
+
+        <div id="modal">
+          <div>
+            <button class="plane_type" id="mot_chieu">Một chiều</button>
+            <button class="plane_type" id="khu_hoi">Khứ hồi</button>
+            <p class="bonus" id="number_traveler">0</p>
+            <button class="bonus" id="traveler">Vé</button>
+          </div>
+          <div class="modal_body">
+            <input type="text" class="start" placeholder="Xuất phát">
+            <input type="text" class="arrive" placeholder="Hạ cánh">
+            <input type="datetime" class="time_start" name="" id="" placeholder="Ngày đi">
+            <button type="submit" class="find_button"><img class="search_img" src="./assets/img/timkiem.png"> </button>
+          </div>
+          <div class="modal_body_ngayve"><input type="datetime" class="" name="" id="ngay_ve" placeholder="Ngày về">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container__intro">
+        Các Chuyến Bay
+      </div>
+      <div class="content">
+
+        <div class="maincontent">
+          <div class="subcontent">
+            <div class="subcontent__logo">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img">
+              <h2 class="subcontent__intro">
+                Thai Airway
+              </h2>
+            </div>
+            <div class="subcontent--left">
+              <p class="subcontent__hour">
+                <b>8:30AM - 2:30PM</b>
+              </p>
+              <p class="subcontent__local">
+                HAN Hà Nội - SGN Tp Hồ Chí Minh
+              </p>
+            </div>
+            <div class="subcontent--right">
+              <p class="subcontent__price">
+                <b>1.500.000VNĐ/Vé</b>
+              </p>
+              <a href="./InformationForm.html" class="subcontent__btn">Đặt vé</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="maincontent">
+          <div class="subcontent">
+            <div class="subcontent__logo">
+              <img src="./assets/img/BamboPlane.png" alt="" class="subcontent__img">
+              <h2 class="subcontent__intro">
+                Boom Airway
+              </h2>
+            </div>
+            <div class="subcontent--left">
+              <p class="subcontent__hour">
+                <b>7:30AM - 1:00PM</b>
+              </p>
+              <p class="subcontent__local">
+                HAN Hà Nội - Đà Nẵng
+              </p>
+            </div>
+            <div class="subcontent--right">
+              <p class="subcontent__price">
+                <b>1.500.000VNĐ/Vé</b>
+              </p>
+              <a href="./InformationForm.html" class="subcontent__btn">Đặt vé</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="maincontent">
+          <div class="subcontent">
+            <div class="subcontent__logo">
+              <img src="./assets/img/KhokhoPlane.png" alt="" class="subcontent__img">
+              <h2 class="subcontent__intro">
+                ABC Airway
+              </h2>
+            </div>
+            <div class="subcontent--left">
+              <p class="subcontent__hour">
+                <b>4:30PM - 8:30PM</b>
+              </p>
+              <p class="subcontent__local">
+                HAN Hà Nội - Đà Lạt
+              </p>
+            </div>
+            <div class="subcontent--right">
+              <p class="subcontent__price">
+                <b>1.500.000VNĐ/Vé</b>
+              </p>
+              <a href="./InformationForm.html" class="subcontent__btn">Đặt vé</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="maincontent">
+          <div class="subcontent">
+            <div class="subcontent__logo">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img">
+              <h2 class="subcontent__intro">
+                Thai Airway
+              </h2>
+            </div>
+            <div class="subcontent--left">
+              <p class="subcontent__hour">
+                <b>9:00AM - 2:30PM</b>
+              </p>
+              <p class="subcontent__local">
+                HAN Hà Nội - SGN Tp Hồ Chí Minh
+              </p>
+            </div>
+            <div class="subcontent--right">
+              <p class="subcontent__price">
+                <b>1.500.000VNĐ/Vé</b>
+              </p>
+              <a href="./InformationForm.html" class="subcontent__btn">Đặt vé</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="maincontent">
+          <div class="subcontent">
+            <div class="subcontent__logo">
+              <img src="./assets/img/scootplane.png" alt="" class="subcontent__img">
+              <h2 class="subcontent__intro">
+                Scoot Airway
+              </h2>
+            </div>
+            <div class="subcontent--left">
+              <p class="subcontent__hour">
+                <b>1:30AM - 7:30AM</b>
+              </p>
+              <p class="subcontent__local">
+                Nha Trang - Lạng Sơn
+              </p>
+            </div>
+            <div class="subcontent--right">
+              <p class="subcontent__price">
+                <b>1.500.000VNĐ/Vé</b>
+              </p>
+              <a href="./InformationForm.html" class="subcontent__btn">Đặt vé</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---->
+    <div class="content_2">
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - SGN Tp Hồ Chí Minh
+            </p>
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              SGN Tp Hồ Chí Minh - HAN Hà Nội
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/BamboPlane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Boom Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/KhokhoPlane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                ABC Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - Đà Lạt
+            </p>
+            <p class="subcontent__hour_2">
+              <b>2:30PM - 8:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              Đà Lạt - HAN Hà Nội
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/scootplane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Scoot Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/scootplane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Scoot Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>6:00AM - 1:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - Nha Trang
+            </p>
+            <p class="subcontent__hour_2">
+              <b>1:30AM - 6:00PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              Nha Trang - HAN Hà Nội
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/KhokhoPlane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                ABC Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>7:30AM - 10:30AM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - SGN Tp Hồ Chí Minh
+            </p>
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              SGN Tp Hồ Chí Minh - HAN Hà Nội
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/BamboPlane.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Boom Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>1:30AM - 5:30AM</b>
+            </p>
+            <p class="subcontent__local_2">
+              SGN Tp Hồ Chí Minh - Lạng Sơn
+            </p>
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              Lạng Sơn - SGN Tp Hồ Chí Minh
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="maincontent_2">
+        <div class="subcontent_2">
+          <div class="subcontent__logo_2">
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+            <div class="subcontent__plane_2">
+              <img src="./assets/img/Thai Airline.png" alt="" class="subcontent__img_2">
+              <h2 class="subcontent__intro_2">
+                Thai Airway
+              </h2>
+            </div>
+          </div>
+
+          <div class="subcontent--left_2">
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - SGN Tp Hồ Chí Minh
+            </p>
+            <p class="subcontent__hour_2">
+              <b>8:30AM - 2:30PM</b>
+            </p>
+            <p class="subcontent__local_2">
+              HAN Hà Nội - SGN Tp Hồ Chí Minh
+            </p>
+          </div>
+
+          <div class="subcontent--right_2">
+            <p class="subcontent__price_2">
+              <b>3.000.000VNĐ/Vé</b>
+            </p>
+            <a href="./InformationForm.html" class="subcontent__btn_2">Đặt vé</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer-Vu -->
+    <div class="footer">
+      <div class="footer__desc">
+        Liên hệ với chúng tôi qua:
+      </div>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="https://www.facebook.com/"><img src="./assets/img/facebook_footer.png" alt=""
+              class="footer__img"></a></li>
+        <li class="footer__item"><a href="https://www.instagram.com/"><img src="./assets/img/instagram_footer.png"
+              alt="" class="footer__img--ins"></a></li>
+        <li class="footer__item"><a href="https://www.google.com.vn/"><img src="./assets/img/google_footer.jpg" alt=""
+              class="footer__img"></a></li>
+      </ul>
+    </div>
+
+    <!--Sign In Form-->
+    <div id="sign_in_container" class="">
+      <div id="form_background" class="form_background"></div>
+      <div id="form" class="form">
+        <div class="form_header">
+          <img src="./assets/img/logo.png">
+          <h3>
+            Booking
+          </h3>
+        </div>
+        <div class="form_container">
+          <h2 class="form_desc"><b>Đăng nhập</b></h2>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/facebook_footer.png">
+            <h2>Continue with Facebook </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/Google_footer.png">
+            <h2>Continue with Google </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="mail" src="./assets/img/gmail.png">
+            <h2>Continue with Email</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Pop up-->
+    <div id="popup" class="">
+      <div class="" id="popup_background"></div>
+      <div id="form_1" class="">
+        <div id="form_line" class="adults">
+          <p id="text"><b>Người lớn</b></p>
+          <button id="minus"><img class="minus_img" id="minus_1" src="./assets/img/minus.png"></img></button>
+          <p class="number" id="number_1">0</p>
+          <button id="plus"><img class="plus_img" id="plus_1" src="./assets/img/plus.png"></img></button>
+        </div>
+        <div id="form_line" class="children">
+          <p id="text"><b>Trẻ em</b></p>
+          <button id="minus"><img class="minus_img" id="minus_2" src="./assets/img/minus.png"></img></button>
+          <p class="number" id="number_2">0</p>
+          <button id="plus"><img class="plus_img" id="plus_2" src="./assets/img/plus.png"></img></button>
+        </div>
+        <div id="form_line" class="infants">
+          <p id="text"><b>Em bé</b></p>
+          <button id="minus"><img class="minus_img" id="minus_3" src="./assets/img/minus.png"></img></button>
+          <p class="number" id="number_3">0</p>
+          <button id="plus"><img class="plus_img" id="plus_3" src="./assets/img/plus.png"></img></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./assets/js/sign_in_event.js"></script>
+  <script src="./assets/js/searchplane.js"></script>
+</body>
+
+</html>

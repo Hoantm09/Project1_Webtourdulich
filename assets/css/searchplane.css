@@ -1,0 +1,230 @@
+/*  container */
+
+
+#modal_plane{
+    position: relative;
+    height: 500px;
+    width: 85%;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+#modal_plane .img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#modal_plane #modal {
+    position: absolute;
+    background: #ffff;
+    width: 1000px;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    top: 130px;
+}
+
+#modal_plane #modal .plane_type {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    padding: 25px 30px;
+    outline: none;
+}
+
+#modal_plane #modal .plane_type:hover{
+    opacity: 0.8;
+    text-decoration-line: underline;
+}
+
+#modal_plane #modal .bonus{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 25px 2px;
+    outline: none;
+}
+
+#modal_plane #modal .bonus:hover{
+    opacity: 0.6;
+}
+
+#modal_plane #modal #number_traveler{
+    margin-left: 450px;
+}
+
+#modal_plane #modal .modal_body{
+    display: inline;
+}
+
+#modal_plane #modal .modal_body .start{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    left: 30px;
+
+}
+
+#modal_plane #modal .modal_body .arrive{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    left: 50px;
+  
+}
+
+#modal_plane #modal .modal_body .time_start{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    left: 70px;
+  
+}
+#modal_plane #modal .modal_body .find_button{
+    position: relative;
+    padding: 8px 8px;
+    border-radius: 12px;
+    left: 90px;
+    top: 7px;
+    background-color: white;
+}
+.find_button .search_img{
+    width: 31px;
+    height: 31px;
+}
+
+#modal_plane #modal .modal_body .find_button:hover{
+    opacity: 0.5;
+}
+
+#modal_plane #modal .modal_body_ngayve #ngay_ve{
+    padding: 15px 15px;
+    position: relative;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-left: 5px;
+    left: 565px;
+    margin-top: 40px;
+    display: none;
+}
+
+#modal_plane #modal .modal_body_ngayve #ngay_ve.show_ngay_ve{
+    display: block;
+}
+
+/*Pop up*/
+
+#popup_background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    display: none;
+}
+
+#popup_background.backgroundshow{
+    display: block;
+}
+
+#form_1{
+    /*form position*/
+    position: absolute;
+    top: 600px;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+    /*form style*/
+    background: white;
+    width: 170px;
+    height: 140px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    border:3px solid black;
+    display: none;    
+}
+
+#form_1.show_form_1{
+    display: block;
+}
+
+#text{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+#minus{
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    line-height: 40px;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#minus .minus_img{
+    height: 15px;
+    width: 10px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+.number{
+    position: absolute;
+    display: inline-block;
+    right: 35px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#plus{
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 100%;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#plus:hover{
+    color: grey; 
+}
+
+
+#plus .plus_img{
+    height: 15px;
+    width: 10px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}

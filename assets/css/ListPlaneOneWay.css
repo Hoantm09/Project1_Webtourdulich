@@ -1,0 +1,93 @@
+.container {
+    background-color: #eaeaea;
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.container__intro{
+    padding-top: 30px;
+    padding-bottom: 50px; 
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.content{
+    background-color: #eaeaea;
+    padding-bottom: 10px;
+}
+.maincontent{
+    margin-left:300px;
+    width:64%;
+    height: 200px;
+    background-color: white;
+    border-color: #efeeee;
+    border-radius: 10px;
+    margin-bottom: 100px;
+ }
+
+.subcontent {
+    display:flex;
+    max-height: 200px;
+}
+
+.subcontent__logo {
+    padding-left: 50px;
+    width: 20%;
+    display:flex;
+}
+
+
+.subcontent__img{
+    max-width: 50px;
+    max-height: 50px;
+    padding-top:40%;
+    padding-right: 1%;
+}
+
+.subcontent__intro{
+    font-size: 20px;
+    padding-top: 50%;
+    padding-left:5%;
+}
+
+.subcontent--left{
+    line-height: 2;
+    padding-top:7%;
+    text-align: center;
+    position: relative;
+    float:center;
+    width:50%; 
+}
+
+.subcontent__hour{
+    font-size: 18px;
+}
+
+.subcontent__local{
+    font-size: 15px;
+    color:#434343;
+}
+
+.subcontent--right{
+    width:30%;
+    float:right;
+    padding-top: 9%;
+}
+
+.subcontent__price{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 15%;
+}
+
+.subcontent__btn{
+    margin-left: 100px;
+    font-size: 18px;
+    border: 1px solid #7875b0;
+    padding: 7px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7875b0;
+}

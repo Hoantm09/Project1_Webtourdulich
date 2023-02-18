@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/sign_in_form.css">
+  <link rel="stylesheet" href="./assets/css/bookcar.css">
+  <title>Đặt xe</title>
+</head>
+
+<body>
+  <div class="main">
+    <!-- Header-My -->
+    <div class="header">
+      <div class="header__menu">
+        <div class="header__menu--logo">
+          <img src="./assets/img/logo.png">
+          <a href="./index.html">
+            <h2>
+              Booking
+            </h2>
+          </a>
+        </div>
+        <div class="header__menu--right">
+          <ul>
+            <li><a href="https://www.facebook.com/">Hỗ trợ</a></li>
+            <li><a id="btn_sign_in">Đăng nhập</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="header__nav">
+        <ul>
+          <li><a href="./searchplane.html"><img class="header__nav--plane" src="./assets/img/Maybay.png">
+              <p class="header__nav-desc">Chuyến bay</p>
+            </a></li>
+          <li><a href="./searchhotel.html"><img class="header__nav--hotel" src="./assets/img/hotel.png">
+              <p class="header__nav-desc">Khách sạn</p>
+            </a></li>
+          <li><a href="./bookcar.html"><img class="header__nav--car" src="./assets/img/car.png">
+              <p class="header__nav-desc">Đặt xe</p>
+            </a></li>
+          <li><a href="./searchlocal.html"><img class="header__nav--local" src="./assets/img/diadiem.png">
+              <p class="header__nav-desc">Địa điểm</p>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- CONTAINER -->
+    <div class="container">
+      <div id="modal_bookcar" class="">
+        <img class="img" href="" src="./assets/img/2.jpg" alt="">
+
+        <div id="modal">
+          <div class="modal_body">
+            <div class="line_one">
+              <input type="text" class="place" id="start" placeholder="Điểm đón">
+              <input type="text" class="place" id="arrive" placeholder="Điểm đến">
+              <button type="submit" class="place" id="find_button"><img class="search_img"
+                  src="./assets/img/timkiem.png"> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- form bookcar -->
+
+    <div class="form_bookcar">
+      <div>
+        <h1>Taxi gần đây</h1>
+      </div>
+      <div class="line_one">
+        <div class="car_grid_row_1">
+          <div><img src="./assets/img/gojeck.jpg" class="img_loaixe" id="anh_1" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_1">35.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_1">Đặt xe</button>
+        </div>
+
+        <div class="car_grid_row_1">
+          <div><img src="./assets/img/unnamed.png" class="img_loaixe" id="anh_2" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_2">55.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_2">Đặt xe</button>
+        </div>
+      </div>
+
+      <div class="line_two">
+        <div class="car_grid_row_2">
+          <div><img src="./assets/img/goviet.png" class="img_loaixe" id="anh_3" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_3">45.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_3">Đặt xe</button>
+        </div>
+
+        <div class="car_grid_row_2">
+          <div><img src="./assets/img/vato.jfif" class="img_loaixe" id="anh_4" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_4">50.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_4">Đặt xe</button>
+        </div>
+      </div>
+
+
+      <div class="line_three">
+        <div class="car_grid_row_3">
+          <div><img src="./assets/img/GrabCar.png" class="img_loaixe" id="anh_5" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_5">45.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_5">Đặt xe</button>
+        </div>
+        <div class="car_grid_row_3">
+          <div><img src="./assets/img/fastgo.png" class="img_loaixe" id="anh_6" alt=""></div>
+          <div>
+            <span class="gia_tien_datxe">Giá tiền: </span> <br>
+            <span class="gia_tien_datxe" id="gia_6">35.000VNĐ </span>
+          </div>
+          <button class="datxe_btn" id="datxe_btn_6">Đặt xe</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- modal popup thanh toan -->
+    <div id="form_thanh_toan_xe" class="">
+      <div id="background_thanh_toan_xe" class="background_thanh_toan_xe"></div>
+      <div id="form_thanh_toan_xe_bookcar" class="form_thanh_toan_xe_bookcar">
+        <div id="hangxe_inform">
+          <img src="./assets/img/gojek_3_zqwl.jpg" class="img_inform" id="anh_popup" alt="">
+        </div>
+        <div class="thanh_toan_inform" id="thanh_toan">
+          <span>Thanh toán</span>
+        </div>
+        <div class="thanh_toan_inform" id="tien_mat">
+          <span>Tiền mặt :</span>
+        </div>
+        <div class="gia_tien_datxe_inform">
+          <span id="gia_popup">50.000VNĐ </span>
+        </div>
+        <div id="datxe_btn_inform">
+          <button type="button" class="datxe_btn_inform">Đặt xe</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-Vu -->
+    <div class="footer">
+      <div class="footer__desc">
+        Liên hệ với chúng tôi qua:
+      </div>
+      <ul class="footer__list">
+        <li class="footer__item"><a href="https://www.facebook.com/"><img src="./assets/img/facebook_footer.png" alt=""
+              class="footer__img"></a></li>
+        <li class="footer__item"><a href="https://www.instagram.com/"><img src="./assets/img/instagram_footer.png"
+              alt="" class="footer__img--ins"></a></li>
+        <li class="footer__item"><a href="https://www.google.com.vn/"><img src="./assets/img/google_footer.jpg" alt=""
+              class="footer__img"></a></li>
+      </ul>
+    </div>
+    <!--Sign In Form-->
+    <div id="sign_in_container" class="">
+      <div id="form_background" class="form_background"></div>
+      <div id="form" class="form">
+        <div class="form_header">
+          <img src="./assets/img/logo.png">
+          <h3>
+            Booking
+          </h3>
+        </div>
+        <div class="form_container">
+          <h2 class="form_desc"><b>Đăng nhập</b></h2>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/facebook_footer.png">
+            <h2>Continue with Facebook </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="item" src="./assets/img/Google_footer.png">
+            <h2>Continue with Google </h2>
+          </div>
+          <div class="form_btn">
+            <button class="sign_in_choose"></button>
+            <img class="mail" src="./assets/img/gmail.png">
+            <h2>Continue with Email</h2>
+          </div>
+        </div>
+      </div>
+      <script src="./assets/js/sign_in_event.js"></script>
+      <script src="./assets/js/form_thanh_toan_bookcar.js"></script>
+</body>
+
+</html>
